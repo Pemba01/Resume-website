@@ -63,6 +63,20 @@ section h2 {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+iframe {
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
 /* Contact */
 #contact a {
   color: #0077cc;
